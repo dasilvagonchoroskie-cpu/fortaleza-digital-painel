@@ -27,3 +27,12 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
 
 /* Fonte um pouco maior em todo o painel (tudo é em rem): 16px -> 18px. */
 html { font-size: 112.5%; }
+
+/* Listas do painel (serviços, portfólio, equipe, apps): título e descrição maiores.
+   Cabeçalho volta ao tamanho de antes para não quebrar em duas linhas. */
+.item-info strong{font-size:1.125rem}
+.item-info span{font-size:1rem;line-height:1.5}
+.item-actions button{font-size:0.9375rem;padding:8px 14px}
+.brand-name{font-size:0.9rem}
+.brand-tag{font-size:0.7rem}
+.site-header a,.header-link{white-space:nowrap}
