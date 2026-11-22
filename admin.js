@@ -3,7 +3,7 @@
 // abre o site, lê. A foto agora vai para o nosso servidor, e é ele que
 // fala com o ImgBB, com a chave guardada em segredo. Além disso, o
 // servidor só aceita envio de quem está logado neste painel.
-const SERVIDOR_IMAGENS = 'https://fortaleza-imagens.fortalezadigitalsecurity.workers.dev';
+const SERVIDOR_IMAGENS = 'https://api.fortalezadigitalsecurity.com.br/imagens-envio';
 
 // Temas prontos — contraste já conferido (mesma lista de script.js)
 const TEMAS = {
