@@ -370,7 +370,7 @@ function carregarServicos() {
       row.className = 'item-row';
       row.innerHTML = `
         <div class="item-info">
-          <strong>${escapeHtml(data.titulo || '')} (ordem ${data.ordem})</strong>
+          <strong>${escapeHtml(data.titulo || '')}</strong>
           <span>${escapeHtml(data.descricao || '')}</span>
         </div>
         <div class="item-actions">
